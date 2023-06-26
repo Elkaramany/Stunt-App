@@ -1,0 +1,21 @@
+
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-4.8%" y="-13.5%" width="109.7%" height="126.9%" filterUnits="objectBoundingBox" id="filter-fhq-_kd11u-1">
+            <feOffset dx="5" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.339160839 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Jobs/-L-/-Search-Results-V.1" transform="translate(-31.000000, -220.000000)">
+            <g id="item" filter="url(#filter-fhq-_kd11u-1)" transform="translate(14.000000, 182.000000)">
+                <image id="icons8-list" x="17" y="40" width="21" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAQCAYAAAD52jQlAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAFaADAAQAAAABAAAAEAAAAADA+51+AAAAXklEQVQ4EWNkYPjPJMbAEMUABK8YGJYyMDD+B7EpASwgAxkZGBaDDAGy/0MMZmAQZ/hPtuFMlLgIl16gI/8zQl37/yUDw3JqeB+XZYNPHOT90dgHp9XR2B/N+1Qo+gB44SyAd9UWPwAAAABJRU5ErkJggg=="></image>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+{
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "*": "./src/*",
+                    "@Config": "./src/Config",
+                    "@Components": "./src/Components",
+                    "@Navigation": "./src/Navigation",
+                    "@NavigationTypes": "./src/NavigationTypes",
+                    "@Screens": "./src/Screens",
+                    "@Context": "./src/Context",
+                    "@Realm": "./src/Realm",
+                    "@RealmTypes": "./src/Realm/types.ts",
+                    "@RealmKeys": "./src/Realm/keys.ts",
+                    "@Assets": "./src/Assets"
+                }
+            }
+        ]
+    ]
+}

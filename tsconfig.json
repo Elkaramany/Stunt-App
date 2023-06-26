@@ -1,0 +1,45 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json", /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    /* Completeness */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "./src/*"
+      ],
+      "@Config": [
+        "./src/Config"
+      ],
+      "@Components": [
+        "./src/Components"
+      ],
+      "@Navigation": [
+        "./src/Navigation"
+      ],
+      "@NavigationTypes": [
+        "./src/Navigation/types"
+      ],
+      "@Screens": [
+        "./src/Screens"
+      ],
+      "@Context": [
+        "./src/Context"
+      ],
+      "@Realm": [
+        "./src/Realm"
+      ],
+      "@RealmTypes": [
+        "./src/Realm/types.ts"
+      ],
+      "@RealmKeys": [
+        "./src/Realm/keys.ts"
+      ],
+      "@Assets": [
+        "./src/Assets"
+      ],
+    }
+  }
+}
